@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+}
+
+body {
+    font-size: 13px !important;
+    font-family: $color-secondary !important;
+    color: white !important;
+    background-color: $color-primary !important;
+}

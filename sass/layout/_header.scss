@@ -1,8 +1,12 @@
 .container__title {
-
-    h1 {
-        margin-bottom: 2rem;
+    height: 100vh;
+    transform: translateY(25%);
+    .subtitle {
+        margin-bottom: 0.5rem;
+        color: white; 
+        opacity: 68%;
     }
+
     p {
         width: 75%;
         margin-bottom: 2rem;
