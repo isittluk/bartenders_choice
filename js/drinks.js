@@ -12,6 +12,7 @@
 let drinks2020 = [
     house_punch = {
         "name": "House Punch",
+        "creator": "The Black Cypress",
         "type": "punch",
         "base": "bourbon",
         "ingredients": "1oz Bourbon, 1oz Orange Juice, 0.25oz Lemon Juice, 0.50oz Cinnamon-Vanilla, 0.25oz Allspice.",
@@ -19,6 +20,7 @@ let drinks2020 = [
     },
     amari_spritz = {
         "name": "Cypress Amari Spritz",
+        "creator": "The Black Cypress",
         "type": "punch",
         "base": "amari",
         "ingredients": "1.50oz Amari blend, 3oz Brut, 1oz Soda",
@@ -26,6 +28,7 @@ let drinks2020 = [
     },
     atacama_flamingo = {
         "name": "Atacama Flamingo",
+        "creator": "The Black Cypress",
         "type": "Bright and Refreshing",
         "base": "brandy",
         "ingredients": "1.5oz Pisco, 0.75oz Lime Juice, 0.75oz Agave, 0.25oz Aperol, 0.25oz Ancho verde, 2 dash Spiced Pechaud's",
@@ -33,6 +36,7 @@ let drinks2020 = [
     },
     mangalore_curry = {
         "name": "Mangalore Curry",
+        "creator": "The Black Cypress",
         "type": "Bright and Refreshing",
         "base": "vodka",
         "ingredients": "1.75oz Vodka, 0.50oz Mango syrup, 0.50oz Curry cordial, 0.25oz Pineapple, 0.75oz Lime, 2 dash Spiced Peychaud's",
@@ -40,6 +44,7 @@ let drinks2020 = [
     },
     rio_75 = {
         "name": "Rio 75",
+        "creator": "The Black Cypress",
         "type": "Bright and Refreshing",
         "base": "rum",
         "ingredients": "1oz Cachaca, 0.25oz St. Germain, 0.50 Lemon juice",
@@ -47,6 +52,7 @@ let drinks2020 = [
     },
     flor_de_jerez = {
         "name": "Flor De Jerez",
+        "creator": "The Black Cypress",
         "type": "Bright and Refreshing",
         "base": "rum",
         "ingredients": "1.5oz Amontillado, 0.75oz Lemon juice, 0.50oz Simple, 0.50oz Myers Rum, 0.25oz Apricot, 1 dash Angostura",
@@ -54,6 +60,7 @@ let drinks2020 = [
     },
     familiar_spirit = {
         "name": "Familiar Spirit",
+        "creator": "The Black Cypress",
         "type": "Stirred and Spirit-Forward",
         "base": "bourbon",
         "ingredients": "2oz Bourbon, 0.50oz Uncle Val's, 0.3oz Brown Sugar, 0.20oz Strega, 1 dash Peach Bitters",
@@ -61,6 +68,7 @@ let drinks2020 = [
     },
     southern_sun = {
         "name": "Southern Sun",
+        "creator": "The Black Cypress",
         "type": "Stirred and Spirit-Forward",
         "base": "mezcal",
         "ingredients": "1.75oz Mezcal, 0.75oz Campari, 0.30oz Nonino, 0.30 Braulio, 2 dash Mole Bitters",
@@ -68,6 +76,7 @@ let drinks2020 = [
     },
     rebel_yellow = {
         "name": "Rebel Yellow",
+        "creator": "The Black Cypress",
         "type": "Stirred and Spirit-Forward",
         "base": "bourbon",
         "ingredients": "2oz Bourbon, 0.50oz Blanc Vermouth, 0.25oz Genepy, 0.25oz Pineapple syrup, 1 dash Grapefruit Bitters",
@@ -75,6 +84,7 @@ let drinks2020 = [
     },
     from_poland = {
         "name": "From Poland, with Love",
+        "creator": "The Black Cypress",
         "type": "Stirred and Spirit-Forward",
         "base": "vodka",
         "ingredients": "1.5oz Zubrowka, 0.50oz Gin, 0.50oz Cocchi Americano, 0.50oz Luxardo Bianco",
@@ -82,6 +92,7 @@ let drinks2020 = [
     },
     rico_martinez = {
         "name": "Rico Martinez",
+        "creator": "The Black Cypress",
         "type": "Stirred and Spirit-Forward",
         "base": "rum",
         "ingredients": "1.75oz White Rum, 1.25oz Cocchi Americano, 0.25oz Maraschino, 2 dash Lavender Bitters",
@@ -89,6 +100,7 @@ let drinks2020 = [
     },
     newport = {
         "name": "Newport",
+        "creator": "The Black Cypress",
         "type": "Avante-Garde",
         "base": "mezcal",
         "ingredients": "1oz Reposado, 1oz Mezcal, 0.50oz Maple syrup, 0.25oz Branca Mentha, 2 dash Smoke Bitters",
@@ -96,6 +108,7 @@ let drinks2020 = [
     },
     pbnj = {
         "name": "PBNJ",
+        "creator": "The Black Cypress",
         "type": "Avante-Garde",
         "base": "whiskey",
         "ingredients": "1.5oz Peanute-butter Rye, 1oz Strawberry syrup, 0.50oz Framboise, 0.25oz Lemon juice, egg white",

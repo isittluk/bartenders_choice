@@ -11,6 +11,16 @@ h1 {
   font-size: 38px !important;
   margin-bottom: 1rem !important; }
 
+h2 {
+  font-family: "DM Serif Display", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  font-size: 22px !important; }
+
+.subtitle {
+  color: white;
+  opacity: 68%; }
+
 p {
   font-weight: 400 !important; }
 
@@ -23,13 +33,44 @@ p {
   margin-left: 3px;
   transform: translateY(-2px); }
 
+.container__text {
+  margin-bottom: 5rem;
+  margin-top: 10rem; }
+
+#container__drinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #container__drinks .drinks__card {
+    width: 250px;
+    height: 370px;
+    padding: 30px;
+    border: 1px solid #231F20;
+    border-radius: 25px;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+    margin-right: 4rem;
+    margin-bottom: 4rem; }
+  #container__drinks .drinks__name {
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 0;
+    font-size: 15px; }
+  #container__drinks .drinks__creator {
+    margin-bottom: 2rem;
+    opacity: 68%; }
+  #container__drinks .drinks__image {
+    margin-bottom: 2rem;
+    margin-left: 10%; }
+  #container__drinks .drinks__btn {
+    opacity: 68%; }
+    #container__drinks .drinks__btn:hover {
+      cursor: pointer; }
+
 .container__title {
   height: 100vh;
-  transform: translateY(25%); }
+  transform: translateY(25%);
+  margin-bottom: 10rem; }
   .container__title .subtitle {
-    margin-bottom: 0.5rem;
-    color: white;
-    opacity: 68%; }
+    margin-bottom: 0.5rem; }
   .container__title p {
     width: 75%;
     margin-bottom: 2rem; }
@@ -50,13 +91,16 @@ p {
     .navigation .menu__text {
       float: right; }
 
+.drinks {
+  height: 100vh;
+  padding: 3rem; }
+
 .container__title {
   height: 100vh;
-  transform: translateY(25%); }
+  transform: translateY(25%);
+  margin-bottom: 10rem; }
   .container__title .subtitle {
-    margin-bottom: 0.5rem;
-    color: white;
-    opacity: 68%; }
+    margin-bottom: 0.5rem; }
   .container__title p {
     width: 75%;
     margin-bottom: 2rem; }

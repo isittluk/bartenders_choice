@@ -1,0 +1,43 @@
+.container__text {
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
+
+#container__drinks {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    .drinks__card {
+        width: 250px;
+        height: 370px;
+        padding: 30px;
+        border: 1px solid $color-primary;
+        border-radius: 25px;
+        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+        margin-right: 4rem;
+        margin-bottom: 4rem;
+    }
+    .drinks__name {
+        font-family: $font-primary;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .drinks__creator {
+        margin-bottom: 2rem;
+        opacity: 68%;
+    }
+    .drinks__image {
+        margin-bottom: 2rem;
+        margin-left: 10%;
+    }
+    .drinks__btn {
+        opacity: 68%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
