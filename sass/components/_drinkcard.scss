@@ -8,9 +8,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    perspective: 1000px;
 
+    #card__container {
+        background-color: transparent;
+    }
 
-    .drinks__card {
+    .drinks__card__front {
         width: 250px;
         height: 370px;
         padding: 30px;
@@ -19,6 +23,62 @@
         box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
         margin-right: 4rem;
         margin-bottom: 4rem;
+
+        position: relative;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+
+        .drinks__image {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-left: 10%;
+        }
+        .drinks__btn {
+            opacity: 68%;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    #card__container:hover .drinks__card__front {
+        transform: rotateY(180deg);
+    }
+
+    .drinks__card__back {
+        width: 250px;
+        height: 370px;
+        padding: 30px;
+        border: 1px solid $color-primary;
+        border-radius: 25px;
+        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+        margin-right: 4rem;
+        margin-bottom: 4rem;
+
+        .container__line {
+            height: 1px;
+            width: 2rem;
+            background: white;
+            opacity: 68%;
+            margin: 1rem 0;
+        }
+
+        .drinks__type {
+            margin-bottom: 2rem;
+        }
+
+        .drinks__ingredients {
+            margin-bottom: 3rem;
+        }
+
+        .drinks__btn {
+            opacity: 68%;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
     .drinks__name {
         font-family: $font-primary;
@@ -26,18 +86,7 @@
         font-size: 15px;
     }
     .drinks__creator {
-        margin-bottom: 2rem;
+        margin-bottom: 0;
         opacity: 68%;
-    }
-    .drinks__image {
-        margin-bottom: 2rem;
-        margin-left: 10%;
-    }
-    .drinks__btn {
-        opacity: 68%;
-
-        &:hover {
-            cursor: pointer;
-        }
     }
 }
