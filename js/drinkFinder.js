@@ -34,7 +34,7 @@ $(".button-primary").click(function() {
 
             console.log(blackCypress[i]);
 
-            document.getElementById("container__drinks").insertAdjacentHTML("beforeend", `<div id="card__container"><div class="drinks__card__front"><p class="drinks__name">` + blackCypress[i].name + `</p><p class="drinks__creator">` + blackCypress[i].creator + `</p>` + `<img class="drinks__image" src="./images/placeholder.png" alt="image of drink">`+ `<p class="drinks__btn">view more. . .</p>` +`</>` +
+            document.getElementById("container__drinks").insertAdjacentHTML("beforeend", `<div id="card__container"><div class="drinks__card__front"><p class="drinks__name">` + blackCypress[i].name + `</p><p class="drinks__creator">` + blackCypress[i].creator + `</p>` + `<img class="drinks__image" src="./images/placeholder.png" alt="image of drink">`+ `<p class="drinks__btn">view more. . .</p>` +`</div>` +
             `<div class="drinks__card__back"><p class="drinks__name">` + blackCypress[i].name + `</p><p class="drinks__creator">` + blackCypress[i].creator + `</p>` + `<div class="container__line"></div>` + `<p class="drinks__type">` + blackCypress[i].type + `</p>` + `<p class="drinks__ingredients">Ingredients: <br>` + blackCypress[i].ingredients + `</p><p class="drinks__btn">Back</p>` +`</div>
             </div>`);
         }

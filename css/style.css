@@ -40,10 +40,9 @@ p {
 #container__drinks {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  perspective: 1000px; }
-  #container__drinks #card__container {
-    background-color: transparent; }
+  flex-wrap: wrap; }
+  #container__drinks .is-flipped {
+    transform: rotateY(180deg); }
   #container__drinks .drinks__card__front {
     width: 250px;
     height: 370px;
@@ -52,10 +51,7 @@ p {
     border-radius: 25px;
     box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
     margin-right: 4rem;
-    margin-bottom: 4rem;
-    position: relative;
-    transition: transform 0.8s;
-    transform-style: preserve-3d; }
+    margin-bottom: 4rem; }
     #container__drinks .drinks__card__front .drinks__image {
       margin-top: 2rem;
       margin-bottom: 2rem;
@@ -64,8 +60,6 @@ p {
       opacity: 68%; }
       #container__drinks .drinks__card__front .drinks__btn:hover {
         cursor: pointer; }
-  #container__drinks #card__container:hover .drinks__card__front {
-    transform: rotateY(180deg); }
   #container__drinks .drinks__card__back {
     width: 250px;
     height: 370px;
