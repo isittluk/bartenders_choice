@@ -5,7 +5,8 @@ $(".menu").click(function() {
 var checkExist = setInterval(function() {
     if ($('#card__container').length) {
        $(".drinks__btn").click(function() {
-           console.log('element is loaded');
+           console.log('hello');
+           $('.card__card').toggleClass('is-flipped');
        });
        clearInterval(checkExist);
     }

@@ -8,83 +8,56 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 
-    #card__container {
-        
-    }
 
     .is-flipped {
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY( 180deg );
+        -moz-transform: rotateY( 180deg );
+        -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
     }
 
 
+    .card__card {
 
-    .drinks__card__front {
-        width: 250px;
-        height: 370px;
-        padding: 30px;
-        border: 1px solid $color-primary;
-        border-radius: 25px;
-        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-        margin-right: 4rem;
-        margin-bottom: 4rem;
+        .drinks__card {
 
-        .drinks__image {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            margin-left: 10%;
-        }
-        .drinks__btn {
-            opacity: 68%;
-    
-            &:hover {
-                cursor: pointer;
+            width: 260px;
+            height: auto;
+            padding: 30px;
+            border: 1px solid $color-primary;
+            border-radius: 25px;
+            box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+            margin-right: 4rem;
+            margin-bottom: 4rem;
+
+            .drinks {
+                &__name {
+                    font-family: $font-primary !important;
+                    margin-bottom: 0;
+                    font-size: 15px;
+                }
+                &__creator {
+                    opacity: 68%;
+                }
+                &__image {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    margin-left: 15%;
+                }
+                &__line {
+                    height: 1px;
+                    width: 25px;
+                    background-color: white;
+                    margin-bottom: 0.5rem;
+                }
+                &__ingredients {
+                    margin-bottom: 0.5rem;
+                }
+                &__list {
+                    opacity: 68%;
+                }
             }
         }
-    }
-
-    .drinks__card__back {
-        width: 250px;
-        height: 370px;
-        padding: 30px;
-        border: 1px solid $color-primary;
-        border-radius: 25px;
-        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-        margin-right: 4rem;
-        margin-bottom: 4rem;
-
-        .container__line {
-            height: 1px;
-            width: 2rem;
-            background: white;
-            opacity: 68%;
-            margin: 1rem 0;
-        }
-
-        .drinks__type {
-            margin-bottom: 2rem;
-        }
-
-        .drinks__ingredients {
-            margin-bottom: 3rem;
-        }
-
-        .drinks__btn {
-            opacity: 68%;
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    }
-    .drinks__name {
-        font-family: $font-primary;
-        margin-bottom: 0;
-        font-size: 15px;
-    }
-    .drinks__creator {
-        margin-bottom: 0;
-        opacity: 68%;
     }
 }
