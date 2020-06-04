@@ -107,7 +107,7 @@ p {
 
 .inputs {
   height: 100vh;
-  padding: 3rem; }
+  padding: 20rem 0 3rem 0; }
   .inputs .container .inputs__title {
     margin-bottom: 0.5rem; }
   .inputs .container .inputs__subtitle {
@@ -125,9 +125,16 @@ p {
     border-radius: 15px;
     box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
     margin-right: 4rem;
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    transition: all .25s; }
     .inputs .container .inputs__input:hover {
-      cursor: pointer; }
+      cursor: pointer;
+      box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.9);
+      transform: translateY(-2px); }
+    .inputs .container .inputs__input:active {
+      border: 1px solid #FFD478;
+      box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9);
+      transform: translateY(4px); }
   .inputs .container .inputs__spirit {
     top: 50%;
     transform: translateY(40%); }
