@@ -12,7 +12,7 @@ let taste = ['boozy', 'sweet', 'sour', 'bitter', 'umami', 'salty', 'astringent',
 let blackCypress = [
     a_girl_named_ju = {
         "name": "A Girl Named Ju",
-        "creator": "Comme Ca",
+        "creator": "Comme Ça",
         "type": "Bright and Refreshing",
         "base": "bourbon",
         "taste": taste[1],

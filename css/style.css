@@ -105,6 +105,33 @@ p {
   height: 100vh;
   padding: 3rem; }
 
+.inputs {
+  height: 100vh;
+  padding: 3rem; }
+  .inputs .container .inputs__title {
+    margin-bottom: 0.5rem; }
+  .inputs .container .inputs__subtitle {
+    margin-bottom: 5rem; }
+  .inputs .container .inputs__container {
+    display: flex;
+    flex-direction: row;
+    padding: 0; }
+  .inputs .container .inputs__input {
+    height: auto;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #231F20;
+    border-radius: 15px;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+    margin-right: 4rem;
+    margin-bottom: 4rem; }
+    .inputs .container .inputs__input:hover {
+      cursor: pointer; }
+  .inputs .container .inputs__spirit {
+    top: 50%;
+    transform: translateY(40%); }
+
 .container__title {
   height: 100vh;
   transform: translateY(25%);
