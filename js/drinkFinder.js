@@ -1,3 +1,5 @@
+let preferencesArr = [];
+
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
 });
@@ -7,14 +9,12 @@ $(".inputs__input").click(function() {
 
     console.log(spirit);
 
+    preferencesArr = [];
+    preferencesArr.push(spirit);
+    console.log(preferencesArr);
+
+
     findDrinks(spirit);
-
-    $(".inputs__input").animate({
-        opacity: '0'
-    }, 750, 'swing');
-
-    $('.inputs__type')[0].innerHTML = "taste";
-    $('.inputs__type')[1].innerHTML = "taste";
 
 });
 
